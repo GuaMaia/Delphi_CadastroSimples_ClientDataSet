@@ -1,0 +1,52 @@
+unit Umodulo;
+
+interface
+
+uses
+  System.SysUtils, System.Classes, Data.DBXFirebird, Data.DB,forms, Data.SqlExpr,IniFiles,
+  Data.FMTBcd;
+
+type
+  TDm = class(TDataModule)
+    conexao: TSQLConnection;
+    SqlGen: TSQLQuery;
+    procedure DataModuleCreate(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Dm: TDm;
+  iniconexao  : TIniFile;
+  function proximoId(GERNERATO : String) : Integer;
+
+implementation
+
+{%CLASSGROUP 'Vcl.Controls.TControl'}
+
+{$R *.dfm}
+
+procedure TDm.DataModuleCreate(Sender: TObject);
+begin
+
+     iniconexao := TIniFile.Create(extractfilepath(application.exename)+'servidor.ini');
+     iniconexao.WriteString ('ERP', 'Database','localhost:'+ extractfilepath(application.exename)+'\PROJETO.FDB');
+
+     conexao.ConnectionName := 'ERP';
+     conexao.loadparamsfrominifile(extractfilepath(application.exename)+'servidor.ini');
+     conexao.Open;
+end;
+
+function proximoId(GERNERATO : String) : Integer;
+begin
+     dm.SqlGen.Close;
+     dm.SqlGen.sql.Clear;
+     dm.SqlGen.SQL.Add(' select GEN_ID (' + GERNERATO +',1) AS ID_ATUAL FROM RDB$DATABASE');
+     dm.SqlGen.Open;
+     Result := dm.SqlGen.FieldByName('ID_ATUAL').AsInteger;
+     dm.SqlGen.Close;
+end;
+
+end.

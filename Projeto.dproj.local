@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2016/12/01 09:34:10.000.572,=C:\Users\Usedr\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/12/19 16:14:21.000.582,=C:\Users\Usedr\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/08/27 16:21:10.000.037,=C:\Users\Usedr\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/08/27 16:22:27.000.107,D:\Projetos\TEste\Uprinc.pas=C:\Users\Usedr\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/08/27 16:22:27.000.107,D:\Projetos\TEste\Uprinc.dfm=C:\Users\Usedr\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2018/08/27 16:22:36.000.223,D:\Projetos\TEste\Projeto.dproj=C:\Users\Usedr\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2018/08/28 08:55:09.000.320,=D:\Projetos\TEste\Unit1.pas</Transaction>
+    <Transaction>2018/08/28 08:55:58.000.021,=D:\Projetos\TEste\Unit1.pas</Transaction>
+    <Transaction>2018/08/28 08:56:31.000.068,D:\Projetos\TEste\Unit1.pas=D:\Projetos\TEste\Umodulo.pas</Transaction>
+    <Transaction>2018/08/28 08:56:31.000.068,D:\Projetos\TEste\Unit1.dfm=D:\Projetos\TEste\Umodulo.dfm</Transaction>
+    <Transaction>2018/08/28 10:00:11.000.777,=D:\Projetos\TEste\Unit1.pas</Transaction>
+    <Transaction>2018/08/28 10:01:16.000.300,D:\Projetos\TEste\Ucadunimed.dfm=D:\Projetos\TEste\Unit1.dfm</Transaction>
+    <Transaction>2018/08/28 10:01:16.000.300,D:\Projetos\TEste\Ucadunimed.pas=D:\Projetos\TEste\Unit1.pas</Transaction>
+    <Transaction>2018/08/28 10:19:15.000.743,=D:\Projetos\TEste\Unit1.pas</Transaction>
+    <Transaction>2018/08/28 10:19:40.000.060,D:\Projetos\TEste\Ucadunimed2.pas=D:\Projetos\TEste\Unit1.pas</Transaction>
+    <Transaction>2018/08/28 10:19:40.000.060,D:\Projetos\TEste\Ucadunimed2.dfm=D:\Projetos\TEste\Unit1.dfm</Transaction>
+    <Transaction>2018/08/28 10:51:35.000.906,=D:\Projetos\TEste\Unit1.pas</Transaction>
+    <Transaction>2018/08/28 10:52:55.000.990,D:\Projetos\TEste\Ucadprod.pas=D:\Projetos\TEste\Unit1.pas</Transaction>
+    <Transaction>2018/08/28 10:52:55.000.990,D:\Projetos\TEste\Ucadprod.dfm=D:\Projetos\TEste\Unit1.dfm</Transaction>
+    <Transaction>2018/08/28 11:49:15.000.602,=D:\Projetos\TEste\Unit1.pas</Transaction>
+    <Transaction>2018/08/28 11:49:57.000.836,D:\Projetos\TEste\Ufcadprod2.dfm=D:\Projetos\TEste\Unit1.dfm</Transaction>
+    <Transaction>2018/08/28 11:49:57.000.836,D:\Projetos\TEste\Ufcadprod2.pas=D:\Projetos\TEste\Unit1.pas</Transaction>
+    <Transaction>2018/08/28 14:27:32.000.560,=D:\Projetos\TEste\UPesqcad.pas</Transaction>
+    <Transaction>2018/08/28 15:04:40.000.893,=D:\Projetos\TEste\Unit1.pas</Transaction>
+    <Transaction>2018/08/28 15:05:05.000.841,D:\Projetos\TEste\UFrelprod.dfm=D:\Projetos\TEste\Unit1.dfm</Transaction>
+    <Transaction>2018/08/28 15:05:05.000.841,D:\Projetos\TEste\UFrelprod.pas=D:\Projetos\TEste\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>

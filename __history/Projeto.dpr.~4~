@@ -1,0 +1,20 @@
+program Projeto;
+
+uses
+  Vcl.Forms,
+  Uprinc in 'Uprinc.pas' {Fprinc},
+  Umodulo in 'Umodulo.pas' {Dm: TDataModule},
+  Ucadunimed in 'Ucadunimed.pas' {Fcadunimed},
+  Ucadunimed2 in 'Ucadunimed2.pas' {Fcadunimed2};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TFprinc, Fprinc);
+  Application.CreateForm(TDm, Dm);
+  Application.CreateForm(TFcadunimed, Fcadunimed);
+  Application.CreateForm(TFcadunimed2, Fcadunimed2);
+  Application.Run;
+end.

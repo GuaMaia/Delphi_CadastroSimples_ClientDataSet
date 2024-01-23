@@ -1,0 +1,32 @@
+Segue as informações sobre o projeto.
+
+Banco de dados : Firebird 2.5
+Delphi         : Delphi 10 Seattle
+
+Orientação objeto : SqlConection,DatSEtProvider,
+ClienteDataSet,DataSource.
+
+Projeto :
+O projeto possui dois tipos de cadastros:
+-> Cadastro de unidade de medida 
+-> Cadastro de produto
+
+-> Cadastro de Unidade Medida
+O cadatro foi criado para utilizar no cadastro de produto.
+Assim como tem o objetivo de demonstrar a chave estrangeira no
+cadastro de produto.
+
+-> Cadastro de Produto
+1.0 Consulta do produto 
+Utilizei o comando"Inner Join" para demonstrar a descrição da unidade de medida
+
+2.0 No cadastro
+Utilizei o campo " Calculdado " do client data set para
+demonstrar a descrição da unidade de medida 
+
+-> Relatorio do produto
+Foi utilizado Fort Repeat
+
+Importante
+O arquivo " Servidor.Ini" e banco "Projeto.fdb", devem
+ficar na mesma pasta do "Projeto.exe".

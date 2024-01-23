@@ -1,0 +1,27 @@
+unit Uprinc;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.Menus;
+
+type
+  TFprinc = class(TForm)
+    MainMenu1: TMainMenu;
+    Cadastrodeunidademedida1: TMenuItem;
+    UnidadeMedida1: TMenuItem;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Fprinc: TFprinc;
+
+implementation
+
+{$R *.dfm}
+
+end.

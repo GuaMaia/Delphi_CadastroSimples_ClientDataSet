@@ -1,0 +1,46 @@
+unit UFrelprod;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, RLXLSXFilter, RLXLSFilter, RLFilters,
+  RLPDFFilter, RLParser, RLReport;
+
+type
+  TFFrelprod = class(TForm)
+    RelGeral: TRLReport;
+    RLBand2: TRLBand;
+    RLLabel4: TRLLabel;
+    qrlData2: TRLLabel;
+    RLLabel7: TRLLabel;
+    RLSystemInfo4: TRLSystemInfo;
+    RLSystemInfo5: TRLSystemInfo;
+    RLSystemInfo6: TRLSystemInfo;
+    RLLabel10: TRLLabel;
+    RLLabel11: TRLLabel;
+    RLLabel12: TRLLabel;
+    RLExpressionParser1: TRLExpressionParser;
+    RLPDFFilter1: TRLPDFFilter;
+    RLXLSFilter1: TRLXLSFilter;
+    RLXLSXFilter1: TRLXLSXFilter;
+    RLBand5: TRLBand;
+    RLDBMemo3: TRLDBMemo;
+    RLDBMemo4: TRLDBMemo;
+    RLDBMemo1: TRLDBMemo;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  FFrelprod: TFFrelprod;
+
+implementation
+
+{$R *.dfm}
+
+uses Ucadprod;
+
+end.

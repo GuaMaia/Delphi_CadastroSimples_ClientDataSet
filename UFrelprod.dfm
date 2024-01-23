@@ -1,0 +1,245 @@
+object FFrelprod: TFFrelprod
+  Left = 0
+  Top = 0
+  Caption = 'FFrelprod'
+  ClientHeight = 612
+  ClientWidth = 764
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poScreenCenter
+  PixelsPerInch = 96
+  TextHeight = 13
+  object RelGeral: TRLReport
+    Left = 8
+    Top = -2
+    Width = 794
+    Height = 1123
+    DataSource = fcadprod.dsconsulta
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clBlack
+    Font.Height = -13
+    Font.Name = 'Arial'
+    Font.Style = []
+    object RLBand2: TRLBand
+      Left = 38
+      Top = 38
+      Width = 718
+      Height = 83
+      BandType = btHeader
+      Borders.Sides = sdCustom
+      Borders.DrawLeft = True
+      Borders.DrawTop = True
+      Borders.DrawRight = True
+      Borders.DrawBottom = True
+      Borders.FixedLeft = True
+      Borders.FixedTop = True
+      Borders.FixedRight = True
+      Borders.FixedBottom = True
+      object RLLabel7: TRLLabel
+        Left = 300
+        Top = 32
+        Width = 120
+        Height = 16
+        Alignment = taCenter
+        Caption = 'Relat'#243'rio produto'
+        Font.Charset = ANSI_CHARSET
+        Font.Color = clBlack
+        Font.Height = -13
+        Font.Name = 'Tahoma'
+        Font.Style = [fsBold]
+        ParentFont = False
+      end
+      object RLSystemInfo4: TRLSystemInfo
+        Left = 466
+        Top = 34
+        Width = 247
+        Height = 13
+        Alignment = taRightJustify
+        Font.Charset = ANSI_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -11
+        Font.Name = 'Tahoma'
+        Font.Style = [fsBold]
+        Info = itPagePreview
+        ParentFont = False
+        Text = 'P'#225'gina: # / #'
+      end
+      object RLSystemInfo5: TRLSystemInfo
+        Left = 641
+        Top = 19
+        Width = 72
+        Height = 13
+        Alignment = taRightJustify
+        Font.Charset = ANSI_CHARSET
+        Font.Color = clBlack
+        Font.Height = -11
+        Font.Name = 'Tahoma'
+        Font.Style = [fsBold]
+        Info = itHour
+        ParentFont = False
+        Text = 'Hora: '
+      end
+      object RLSystemInfo6: TRLSystemInfo
+        Left = 642
+        Top = 4
+        Width = 71
+        Height = 14
+        Alignment = taRightJustify
+        Font.Charset = ANSI_CHARSET
+        Font.Color = clBlack
+        Font.Height = -11
+        Font.Name = 'Tahoma'
+        Font.Style = [fsBold]
+        ParentFont = False
+        Text = 'Data: '
+      end
+      object RLLabel10: TRLLabel
+        Left = 35
+        Top = 68
+        Width = 446
+        Height = 13
+        AutoSize = False
+        Caption = 'Produto'
+        Font.Charset = ANSI_CHARSET
+        Font.Color = clBlack
+        Font.Height = -11
+        Font.Name = 'Tahoma'
+        Font.Style = [fsBold]
+        ParentFont = False
+      end
+      object RLLabel11: TRLLabel
+        Left = 572
+        Top = 68
+        Width = 137
+        Height = 13
+        AutoSize = False
+        Caption = 'Unidade Medida'
+        Font.Charset = ANSI_CHARSET
+        Font.Color = clBlack
+        Font.Height = -11
+        Font.Name = 'Tahoma'
+        Font.Style = [fsBold]
+        ParentFont = False
+      end
+      object RLLabel12: TRLLabel
+        Left = 492
+        Top = 68
+        Width = 75
+        Height = 13
+        Alignment = taRightJustify
+        AutoSize = False
+        Caption = 'Qtd.'
+        Font.Charset = ANSI_CHARSET
+        Font.Color = clBlack
+        Font.Height = -11
+        Font.Name = 'Tahoma'
+        Font.Style = [fsBold]
+        ParentFont = False
+      end
+    end
+    object RLBand5: TRLBand
+      Left = 38
+      Top = 121
+      Width = 718
+      Height = 16
+      Borders.Sides = sdCustom
+      Borders.DrawLeft = True
+      Borders.DrawTop = False
+      Borders.DrawRight = True
+      Borders.DrawBottom = False
+      Borders.FixedLeft = True
+      Borders.FixedRight = True
+      object RLDBMemo3: TRLDBMemo
+        Left = 35
+        Top = 1
+        Width = 446
+        Height = 13
+        AutoSize = False
+        Behavior = [beSiteExpander]
+        DataField = 'DESCRICAO'
+        DataSource = fcadprod.dsconsulta
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clBlack
+        Font.Height = -11
+        Font.Name = 'Tahoma'
+        Font.Style = []
+        ParentFont = False
+      end
+      object RLDBMemo4: TRLDBMemo
+        Left = 572
+        Top = 1
+        Width = 137
+        Height = 13
+        AutoSize = False
+        Behavior = [beSiteExpander]
+        DataField = 'DESCUNIMED'
+        DataSource = fcadprod.dsconsulta
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clBlack
+        Font.Height = -11
+        Font.Name = 'Tahoma'
+        Font.Style = []
+        ParentFont = False
+      end
+      object RLDBMemo1: TRLDBMemo
+        Left = 492
+        Top = 1
+        Width = 75
+        Height = 13
+        Alignment = taRightJustify
+        AutoSize = False
+        Behavior = [beSiteExpander]
+        DataField = 'VALOR'
+        DataSource = fcadprod.dsconsulta
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clBlack
+        Font.Height = -11
+        Font.Name = 'Tahoma'
+        Font.Style = []
+        ParentFont = False
+      end
+    end
+    object RLBand1: TRLBand
+      Left = 38
+      Top = 137
+      Width = 718
+      Height = 16
+      BandType = btFooter
+      Borders.Sides = sdCustom
+      Borders.DrawLeft = True
+      Borders.DrawTop = True
+      Borders.DrawRight = True
+      Borders.DrawBottom = False
+      Borders.FixedLeft = True
+      Borders.FixedTop = True
+      Borders.FixedRight = True
+    end
+  end
+  object RLExpressionParser1: TRLExpressionParser
+    Left = 222
+    Top = 4
+  end
+  object RLPDFFilter1: TRLPDFFilter
+    DocumentInfo.Creator = 
+      'FortesReport Community Edition v4.0 \251 Copyright '#169' 1999-2015 F' +
+      'ortes Inform'#225'tica'
+    DisplayName = 'Documento PDF'
+    Left = 251
+    Top = 4
+  end
+  object RLXLSFilter1: TRLXLSFilter
+    DisplayName = 'Planilha Excel 97-2013'
+    Left = 282
+    Top = 4
+  end
+  object RLXLSXFilter1: TRLXLSXFilter
+    DisplayName = 'Planilha Excel'
+    Left = 313
+    Top = 4
+  end
+end
